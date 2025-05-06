@@ -1,0 +1,21 @@
+{
+    "name": "njavilas/classroom",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Njavilas\\Classroom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javier Avila",
+            "email": "njavilas2015@gmail.com"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^2.2",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.7",
+        "firebase/php-jwt": "^6.11"
+    }
+}
